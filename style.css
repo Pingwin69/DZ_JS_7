@@ -1,0 +1,156 @@
+
+.studUn1{
+    display: none;
+}
+.studCourse1{
+    display: none;
+}
+.workerOrg1{
+    display: none;
+}
+.workerExpa1{
+    display: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: -1px auto;
+    height: 44px;
+    padding: 0 10px;
+}
+li{
+    width: 13%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px;
+}
+#saveBtn, #saveBtn1, #saveBtn2{
+    display: none;
+    width: 110px;
+    height: 30px;
+}
+.wrapper{
+    display: none;
+    
+    justify-content: center;
+    margin: 70px;
+}
+.burronsLi, .tabBurrons{
+    width: 8%;
+}
+.expaLi, .tabExpa{
+    width: 5%;
+}
+.tabCourse, .courseLi{
+    width: 3%;
+}
+.kidsLi, .tabKids{
+    width: 3%;
+}
+.tabName, .nameLi{
+    width: 10%;
+}
+.tabAge, .ageLi{
+    width: 4%;
+}
+.vacant{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.vacantBtn{
+    width: 15%;
+    height: 45%;
+    font-size: 27px;
+    background-image: url("/but1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    text-shadow: 1px 1px 1px #06798c;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.vacantBtn:hover{
+ transition: all .3s;
+ box-shadow: 2px 7px 11px 1px #1f415d;
+}
+.saver{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saver button{
+    width: 10%;
+    height: 25%;
+    font-size: 18px;
+    margin: 0 10px;
+}
+#saveAllBtn{
+    background-image: url("/btn2.png");
+    background-size: 100% 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-shadow: 1px 4px 8px black;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 25px;
+    box-shadow: 0px 2px 6px 1px #21401e;
+}
+#saveAllBtn:hover{
+    transition: all .3s;
+    box-shadow: 2px 7px 11px 1px #21401e;
+}
+#deleteAllBtn{
+    background-image: url("/red.jpg");
+    background-size: 100% 100%;
+    border-radius: 11px;
+    color: white;
+    text-shadow: 1px 3px 8px black;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 1px 3px 8px 1px #502b2b;
+}
+#deleteAllBtn:hover{
+    transition: all .3s;
+    box-shadow: 1px 7px 11px 1px #502b2b;
+}
+.anketa div{
+    margin: 10px 0px;
+}
+.anketa div input{
+    margin: 0 7px;
+}
+.anketa{
+    display: flex;
+    width: 360px;
+    height: 540px;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px black;
+}
+.anketa div span{
+    width: 50px;
+}
+.anketa div select{
+    margin: 0 7px;
+}
+h1{
+    text-align: center;
+}
+#back, #Clear{
+    width: 110px;
+    height: 30px;
+}
+.tab{
+    font-weight: 700;
+}
+.info{
+    height: 80px;
+}

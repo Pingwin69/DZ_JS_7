@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Create</title>
+</head>
+<body>
+<div class="all">
+    <div class="vacant">
+        <button class="vacantBtn">Создать вакансию</button>
+    </div>
+    <div class="wrapper">
+        <form class="anketa">
+            <h1>Новый работник</h1>
+            <div class="tabl">
+                <span>Тип записи</span>
+                <select class = "typeList" onchange="stud(), work(), base()" >
+                    <option value="">Выберите что-нибудь</option>
+                    <option value="1">Базовый</option>
+                    <option value="2">Учусь</option>
+                    <option value="3">Работаю</option>
+                  </select>
+            </div>
+            <div>
+                <span>Имя</span>
+                <input id="name" type="text">
+            </div>
+            <div>
+                <span>Фамилия</span>
+                <input class="surName" type="text">
+            </div>
+            <div>
+                <span>Отчество</span>
+                <input class="mname" type="text">
+            </div>
+            <div>
+                <span>Возраст</span>
+                <input class="age" type="number">
+            </div>
+            <div>
+                <span>Дети</span>
+                <select class="kids">
+                    <option value="Есть">Есть</option>
+                    <option value="Нету">Нету</option>
+                  </select>
+            </div>
+            <div>
+                <span>Страна родная</span>
+                <input class="countr" type="text" list="country">
+                <datalist id="country">
+                    <option value="Республика Беларусь"></option>
+                    <option value="Украина"></option>
+                    <option value="Россия"></option>
+                    <option value="Латвия"></option>
+                    <option value="Литва"></option>
+                    <option value="Польша"></option>
+                    <option value="Чехия"></option>
+                    <option value="Франция"></option>
+                    <option value="США"></option>
+                    <option value="Англия"></option>
+                    <option value="Япония"></option>
+                    <option value="Китай"></option>
+                    <option value="Другое"></option>
+                </datalist>
+            </div>
+            <div class="studUn1" >
+                <span>Место учебы</span>
+                <input class="studUn" type="text">
+            </div>
+            <div class="studCourse1">
+                <span>Курс</span>
+                <input class="studCourse"  type="number">
+            </div>
+            <div class="workerOrg1">
+                <span>Организация</span>
+                <input class="workerOrg" type="text">
+            </div>
+            <div class="workerExpa1">
+                <span>Стаж (в годах)</span>
+                <input class="workerExpa" type="number">
+            </div>
+
+                <div>
+                    <input type="button" id="saveBtn" value="Добавить">
+                    <input type="button" id="saveBtn1" value="Добавить">
+                    <input type="button" id="saveBtn2" value="Добавить">
+                    <button type="button" id="Clear">Очистить</button>
+                    <button type="button" id="back">Назад</button>
+                </div>
+            </form>
+        </div>    
+    
+
+    <div class="results">
+        <ul class="tab">
+            <li class="tabName">Имя</li>
+            <li class="tabsurname">Фамилия</li>
+            <li class="tabmname">Отчество</li>
+            <li class="tabAge">Возраст</li>
+            <li class="tabKids">Дети</li>
+            <li class="tabCountry">Родная страна</li>
+            <li class="tabUniver">Университет</li>
+            <li class="tabCourse">Курс</li>
+            <li class="tabOrg">Организация</li>
+            <li class="tabExpa">Стаж Работы</li>
+            <li class="tabBurrons">Действие</li>
+        </ul>
+        <div class="results1">
+            
+        </div>
+            
+    
+    </div>
+
+    <div class="saver">
+        <button type="button" id="saveAllBtn">Сохранить все</button>
+        <button type="button" id="deleteAllBtn">Удалить все</button>
+    </div>
+
+    
+</div>  
+
+
+
+
+
+
+    <script src="./main.js"></script>
+    <script src="./addSudent.js"></script>
+    <script src="./addWorker.js"></script>
+    <script src="./addMain.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
